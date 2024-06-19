@@ -1,17 +1,42 @@
 * {
     font-family: Futura;
-    background-color: tan;
+    background-color: palegoldenrod;
+}
+#banner {
+    background-color: #aaeee8 !important;
+    height: 120px;
 }
 
-ul > li {
-    display: inline-block;
-
-h1 {
+#banner > h1 {
     font-weight: bold;
+    margin-left: 4%;
+    margin-right: auto;
+    background-color: #aaeee8;
+}
+
+menu {
+    margin-left: 0%;
+    margin-right: auto;
+    background-color: #aaeee8;
+}
+
+menu > li {
+    display: inline-block;
+    padding: 14px;
+    font-size: 24px;
+    background-color: #aaeee8;
+}
+
+menu > li > a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e68089;
+    background-color: #aaeee8;
 }
 
 img {
-    max-width: 5%;
+    width: 300px;
+    max-width: 100%;
     height: auto;
 }
     
