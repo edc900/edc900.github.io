@@ -2,6 +2,7 @@
     font-family: Futura;
     background-color: palegoldenrod;
 }
+
 #banner {
     background-color: #aaeee8 !important;
     height: 120px;
@@ -15,6 +16,7 @@
 }
 
 menu {
+    margin-top:-1%;
     margin-left: 0%;
     margin-right: auto;
     background-color: #aaeee8;
@@ -23,23 +25,58 @@ menu {
 menu > li {
     display: inline-block;
     padding: 14px;
-    font-size: 24px;
     background-color: #aaeee8;
 }
 
 menu > li > a {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 24px;
     color: #e68089;
     background-color: #aaeee8;
 }
 
-img {
+menu > li > a:hover {
+    text-decoration: underline;
+}
+
+#self_portrait > img {
+    float: left;
     width: 300px;
     max-width: 100%;
     height: auto;
+    margin-right: 2%;
 }
+
+#home_paragraph > p {
+    float: left;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #banner {
+        height: 100px;
+    }
+
+    menu > li > a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 75%;
+        color: #e68089;
+        background-color: #aaeee8;
+    }
     
-p {
-    font-size: 16px;
+    #home_paragraph > p {
+        float: left;
+        font-size: 75%;
+    }
+
+    #self_portrait > img {
+            float: left;
+            width: 100px;
+            max-width: 100%;
+            height: auto;
+            margin-right: 2%;
+    }
 }
