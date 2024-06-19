@@ -3,6 +3,9 @@
     background-color: tan;
 }
 
+ul > li {
+    display: inline-block;
+
 h1 {
     font-weight: bold;
 }
